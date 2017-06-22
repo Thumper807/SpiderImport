@@ -91,27 +91,6 @@ NavMeshSettings:
     cellSize: 0.16666666
     accuratePlacement: 0
   m_NavMeshData: {fileID: 0}
---- !u!1 &23939753 stripped
-GameObject:
-  m_PrefabParentObject: {fileID: 100108, guid: 8c00db5be83e04b4c88b073e10fba9b9, type: 2}
-  m_PrefabInternal: {fileID: 1317748244}
---- !u!95 &23939754
-Animator:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 23939753}
-  m_Enabled: 1
-  m_Avatar: {fileID: 9000000, guid: 130cac6b96af6214296215324b5da188, type: 3}
-  m_Controller: {fileID: 9100000, guid: 2a742c4fd1f4e4a08a979ccbb044f394, type: 2}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
 --- !u!1 &163047917
 GameObject:
   m_ObjectHideFlags: 0
@@ -193,7 +172,7 @@ Transform:
   m_LocalScale: {x: 2, y: 2, z: 2}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 2
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &365595977
 GameObject:
@@ -382,7 +361,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400108, guid: 8c00db5be83e04b4c88b073e10fba9b9, type: 2}
       propertyPath: m_RootOrder
-      value: 3
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 100108, guid: 8c00db5be83e04b4c88b073e10fba9b9, type: 2}
       propertyPath: m_Name
