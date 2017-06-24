@@ -821,6 +821,7 @@ GameObject:
   - component: {fileID: 400108}
   - component: {fileID: 95252945422175954}
   - component: {fileID: 114457469437339614}
+  - component: {fileID: 114686241667087372}
   m_Layer: 0
   m_Name: SPIDER
   m_TagString: Untagged
@@ -1730,5 +1731,16 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 4624127d90fb3436fac6d70fbad9d15b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &114686241667087372
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100108}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 433a7b63566ca48d891708bc3cf81fe9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 

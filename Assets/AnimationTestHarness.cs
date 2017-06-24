@@ -20,6 +20,7 @@ public class AnimationTestHarness : MonoBehaviour {
         {
             m_spiderAnimator.SetTrigger("death");
 
+            // TDOO: This is just hack.  I was seeing a studdering of the animation and used this as a delay.  It appeared to work, but need to fix.
             for (int i = 0; i < 1000; i++)
             {
                 Debug.Log(i.ToString());
