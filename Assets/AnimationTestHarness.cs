@@ -48,21 +48,18 @@ public class AnimationTestHarness : MonoBehaviour {
             m_spiderAnimator.SetInteger("attack", 0);
         }
 
-        // Movement
-        if (Input.GetKey(KeyCode.Alpha2))
-        {
-            m_spiderAnimator.SetInteger("move", 2);
-        }
-        else if (Input.GetKey(KeyCode.Alpha1))
-        {
-            m_spiderAnimator.SetInteger("move", 1);
-        }
-        else
-        {
-            m_spiderAnimator.SetInteger("move", 0);
-        }
-
-        //Debug.Log(m_spiderAnimator.GetInteger("walk").ToString());
-
+//        // Movement
+//        if (Input.GetKey(KeyCode.Alpha2))
+//        {
+//            m_spiderAnimator.SetInteger("move", 2);
+//        }
+//        else if (Input.GetKey(KeyCode.Alpha1))
+//        {
+//            m_spiderAnimator.SetInteger("move", 1);
+//        }
+//        else
+//        {
+//            m_spiderAnimator.SetInteger("move", 0);
+//        }
 	}
 }

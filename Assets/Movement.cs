@@ -25,11 +25,18 @@ public class Movement : MonoBehaviour {
 
         float translation = Input.GetAxis("Vertical") * movementSpeed;
         float rotation = Input.GetAxis("Horizontal") * ROTATIONSPEED;
+
+        // If left & right mouse buttons are down, then calculate translate and rotation via mouse.
+        if (Input.GetMouseButton(0) && Input.GetMouseButton(1))
+        {
+            translation = movementSpeed;
+            rotation = Mathf.Clamp(Input.GetAxis("Mouse X"), -5.0f, 5.0f) * ROTATIONSPEED;
+        }
+
         translation *= Time.deltaTime;
         rotation *= Time.deltaTime;
         transform.Translate(0, 0, translation);
         transform.Rotate(0, rotation, 0);
-
 
         // Set Animation for movement above.
         if (Mathf.Abs(translation) > 0 || Mathf.Abs(rotation) > 0)
